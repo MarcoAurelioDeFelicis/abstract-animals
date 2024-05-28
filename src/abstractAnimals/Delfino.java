@@ -1,6 +1,6 @@
 package abstractAnimals;
 
-public class Delfino extends Animale {
+public class Delfino extends Animale implements VolaNuota {
 
 	public Delfino () {
 		
@@ -19,6 +19,17 @@ public class Delfino extends Animale {
 	public void verso() {
 		System.out.println("io faccio : " + verso);
 
+	}
+	
+	@Override
+	public void faiNuotare() {
+		System.out.println("sto nuotando");
+	}
+
+
+	@Override
+	public void faiVolare() {
+				
 	}
 
 }

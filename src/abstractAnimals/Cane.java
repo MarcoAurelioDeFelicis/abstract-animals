@@ -1,6 +1,6 @@
 package abstractAnimals;
 
-public class Cane extends Animale {
+public class Cane extends Animale implements VolaNuota {
 
 	public Cane () {
 		
@@ -19,7 +19,19 @@ public class Cane extends Animale {
 	@Override
 	public void verso() {
 		System.out.println("io faccio : " + verso);
+		
+		}
 
+	@Override
+	public void faiNuotare() {
+		System.out.println("sto nuotando");
 	}
+
+
+	@Override
+	public void faiVolare() {
+				
+	}
+
 
 }
