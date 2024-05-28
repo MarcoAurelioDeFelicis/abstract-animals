@@ -1,6 +1,6 @@
 package abstractAnimals;
 
-public class Aquila extends Animale implements VolaNuota {
+public class Aquila extends Animale implements IVolante {
 	
 	public Aquila () {
 		
@@ -23,13 +23,7 @@ public class Aquila extends Animale implements VolaNuota {
 	}
 	
 	@Override
-	public void faiNuotare() {
-		
-	}
-
-
-	@Override
-	public void faiVolare() {
+	public void vola() {
 		System.out.println("sto volando");		
 	}
 

@@ -11,26 +11,26 @@ public class MAIN {
 		cane.dormi();
 		cane.verso();
 		cane.mangia();
-		cane.faiNuotare();
+		cane.nuota();
 		
 		
 		System.out.println("\nNome :" + aquila.nome);
 		aquila.dormi();
 		aquila.verso();
 		aquila.mangia();
-		aquila.faiVolare();
+		aquila.vola();
 		
 		System.out.println("\nNome :" + passerotto.nome);
 		passerotto.dormi();
 		passerotto.verso();
 		passerotto.mangia();
-		passerotto.faiVolare();
+		passerotto.vola();
 		
 		System.out.println("\nNome :" + delfino.nome);
 		delfino.dormi();
 		delfino.verso();
 		delfino.mangia();
-		delfino.faiNuotare();
+		delfino.nuota();
 	}
 
 
