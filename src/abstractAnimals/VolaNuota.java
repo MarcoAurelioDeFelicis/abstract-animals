@@ -1,8 +1,16 @@
 package abstractAnimals;
 
-public interface VolaNuota {
+public class VolaNuota {
 	
-	public void faiNuotare();
+	public static void main(String [] args) {
+		
+	}
+		public static void faiNuotare(INuotante animale) {
+			animale.nuota();
+		}
+		
+		public static void faiVolare(IVolante animale) {
+			animale.vola();
+		} 
 	
-	public void faiVolare ();
 }
